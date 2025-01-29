@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Modes from './Modes';
 
 export default function Header() {
-    const [mode, setMode] = useState(localStorage.getItem('mode') || 'light');
+    const [mode, setMode] = useState(localStorage.getItem('mode') || 'dark');
 
     useEffect(() => {
         if (mode === 'dark') {
