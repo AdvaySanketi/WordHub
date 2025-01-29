@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import Footer from './Footer';
 import NoResults from './NoResults';
 import NounOrVerb from './NounOrVerb';
 import InitialState from './Initial';

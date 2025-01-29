@@ -2,7 +2,6 @@ import { useState, FormEvent } from 'react';
 import Header from './components/Header';
 import { Search as SearchIcon } from 'react-feather';
 import Results from './components/Results';
-import Footer from './components/Footer';
 
 function App() {
     const [search, setSearch] = useState('');
